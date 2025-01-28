@@ -1,0 +1,97 @@
+/* General Styles for the body tag */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: auto;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Skip to Main Content Link */
+.skip-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    z-index: 10;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Grid Styles */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flexbox Styles */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2E8B57;
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6;
+}
